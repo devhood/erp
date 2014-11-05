@@ -19,6 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/user', require('./routes/users'));
 app.use('/sales', require('./routes/sales'));
-
+app.use('/customer', require('./routes/customer'));
+app.use('/product', require('./routes/product'));
 
 module.exports = app;
