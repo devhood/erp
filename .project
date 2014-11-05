@@ -6,14 +6,22 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+<<<<<<< HEAD
 			<name>com.eclipsesource.jshint.ui.builder</name>
+=======
+			<name>org.eclipse.wst.jsdt.core.javascriptValidator</name>
+>>>>>>> 3f7399094a62f77632b4b439f89364ad372832ab
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
+<<<<<<< HEAD
 		<nature>org.nodeclipse.ui.NodeNature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>tern.eclipse.ide.core.ternnature</nature>
+=======
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+>>>>>>> 3f7399094a62f77632b4b439f89364ad372832ab
 	</natures>
 </projectDescription>
